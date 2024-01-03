@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="bootstrap.min.css" />
+
+    <!-- Css Icons -->
+    <link rel="stylesheet" href="font-awesome/css/all.min.css" />
+    <link rel="stylesheet" href="bootstrap-icons/bootstrap-icons.css" />
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Mykel || Treelink || Contacts</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Mykel</a>
+        <div class="mx-auto">
+          <div class="bi bi-brightness-high-fill text-white" id="menu"></div>
+        </div>
+        <div class="ms-auto">
+          <div class="btn btn-danger" id="init">Start Chat</div>
+        </div>
+      </div>
+    </nav>
+    <!-- Content -->
+    <div id="body">
+      <div class="container pt-5" style="position: relative">
+        <div class="info-container">
+          <img src="logo.png" alt="" class="img-fluid" />
+          <div class="info-details">
+            <h4 class="">Hello, i'm <span> Mykel</span></h4>
+            <p class="">
+              A <span>Web Developer</span> and <span>Graphics designer</span>
+            </p>
+          </div>
+        </div>
+        <div class="text-center text-danger mb-4">My Social Networks</div>
+        <div
+          class="d-flex flex-column justify-content-center align-items-center socials"
+        >
+          <div class="mb-3">
+            <i class="fab fa-whatsapp">
+              <a
+                href="https://wa.me/2348103775085?text=Hello,+I+am+interested+in+learning+more+about+your+business."
+              >
+                Message on WhatsApp
+              </a>
+            </i>
+          </div>
+
+          <div class="mb-3">
+            <i class="fab fa-facebook">
+              <a href="https://www.facebook.com/profile.php?id=61552120619708">
+                Follow on Facebook
+              </a>
+            </i>
+          </div>
+
+          <div class="mb-3">
+            <i class="fab fa-github">
+              <a href="https://github.com/Mykel68"> Check github </a>
+            </i>
+          </div>
+
+          <div class="mb-3">
+            <i class="fab fa-linkedin">
+              <a href="https://www.linkedin.com/in/micheal-olowookere/">
+                Linkedin
+              </a>
+            </i>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="test"
+        style="position: fixed; bottom: 2rem; right: 1.5rem; display: none"
+      >
+        <div class="child" id="chatbot">
+          <div class="header">
+            <div class="h-child">
+              <i class="fa fa-wechat" aria-hidden="true"></i>
+              <div>
+                <span class="name"> Mykel digital</span>
+                <br />
+                <div style="color: lawngreen; display: flex">
+                  <div class="online"></div>
+                  online
+                </div>
+              </div>
+            </div>
+            <div>
+              <button class="refBtn">
+                <i class="fas fa-recycle" onclick="initChat()"> </i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div id="chat-box"></div>
+        <div class="footer">
+          <span> powered by mykel</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="bootstrap.bundle.js"></script>
+  </body>
+</html>
