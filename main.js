@@ -93,7 +93,7 @@ var data = {
     url: {},
   },
   facebook: {
-    title: ["You can message me here on <a href='#' >Facebook</a>"],
+    title: ["You can message me here on <a href='https://www.facebook.com/profile.php?id=61552120619708' >Facebook</a>"],
     options: ["Done"],
     url: {},
   },
@@ -103,12 +103,12 @@ var data = {
     url: {},
   },
   github: {
-    title: ["My Github <a href='#' >Github</a>"],
+    title: ["My Github <a href='https://github.com/Mykel68/' >Github</a>"],
     options: ["Done"],
     url: {},
   },
   done: {
-    title: ["You can also follow me on <a href='#' >Facebook</a>"],
+    title: ["You can also follow me on <a href='https://www.facebook.com/profile.php?id=61552348636303' >Facebook</a>"],
     options: ["Okay"],
     url: {},
   },
